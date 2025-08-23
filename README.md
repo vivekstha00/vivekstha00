@@ -48,6 +48,10 @@
 ![](https://github-contributor-stats.vercel.app/api?username=vivekstha00&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+## 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vivekstha00/vivekstha00/output/snake.svg" alt="Snake animation" />
+</p>
 
 
 
