@@ -20,6 +20,11 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: vivekstha00
+          color_snake: '3c1f7c'          
+          color_dots: '5d34a2'          
+          color_dots_empty: '281557'    
+          color_dots_hidden: '1a0c35'   
+          output_dots_max_count: 52     
           outputs: |
             dist/snake.svg
             dist/snake.gif
