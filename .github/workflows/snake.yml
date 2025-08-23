@@ -1,16 +1,18 @@
 name: Generate Snake
 
 on:
-  schedule: # Runs once a day at midnight UTC
-    - cron: "0 0 * * *"
-  workflow_dispatch: # Allow manual runs
+  schedule: # Run every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # Allow manual run
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Generate snake animation
@@ -20,10 +22,9 @@ jobs:
           outputs: dist/snake.svg
 
       - name: Push to output branch
-        uses: EndBug/add-and-commit@v9
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          branch: output
-          message: "Generated Snake Animation"
-          add: "dist/snake.svg"
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
