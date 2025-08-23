@@ -17,11 +17,15 @@ jobs:
 
       - name: Generate snake animation
         uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: vivekstha00
           outputs: |
             dist/snake.svg
             dist/snake.gif
+
+      - name: List files in dist directory
+        run: ls -la dist/
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
@@ -29,4 +33,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          keep_files: false
           force_orphan: true
