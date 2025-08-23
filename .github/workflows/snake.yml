@@ -27,7 +27,8 @@ jobs:
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          personal_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
           keep_files: false
+          force_orphan: true
