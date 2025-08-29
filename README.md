@@ -35,7 +35,6 @@
 ![](https://github-profile-trophy.vercel.app/?username=vivekstha00&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ---
-
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=vivekstha00&theme=material-palenight&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=vivekstha00&theme=material-palenight&hide_border=false)<br/>
