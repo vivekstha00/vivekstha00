@@ -28,7 +28,7 @@
 # 💻 Tech Stack:
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,react,laravel,django,mysql,github,figma" />
+  <img src="https://skillicons.dev/icons?i=python,java,js,react,laravel,php,django,mysql,github,figma" />
 </p>
 
 ## 🏆 GitHub Trophies
