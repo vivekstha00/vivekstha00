@@ -31,11 +31,6 @@
   <img src="https://skillicons.dev/icons?i=python,java,js,react,laravel,php,django,mysql,github,figma" />
 </p>
 
-## 🌍 Most Used Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivekstha00&theme=material-palenight&layout=compact&langs_count=10&size_weight=0.5&count_weight=0.5&hide=Jupyter%20Notebook,HTML,CSS" />
-</p>
-
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=vivekstha00&theme=radical&no-frame=false&no-bg=true&margin-w=4)
