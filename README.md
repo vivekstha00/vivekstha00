@@ -39,6 +39,7 @@
 
 ## 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api?username=vivekstha00&show_icons=true&theme=material-palenight&hide_border=false)
+![](https://streak-stats.demolab.com?user=vivekstha00&theme=material-palenight&hide_border=false)
 
 ---
 
